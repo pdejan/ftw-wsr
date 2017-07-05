@@ -121,12 +121,16 @@ a:focus {
   width: 150px;
   margin: auto;
   display: block;
+  text-decoration: none;
 }
 .btn-main:hover, .btn-main:focus {
  color: #74131B;
 }
 .btn-main:focus {
   outline: none !important;
+}
+a:-webkit-any-link {
+    text-decoration: none;
 }
 .section-header {
   margin-bottom: 5px;
